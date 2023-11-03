@@ -1,3 +1,9 @@
+.custom-bg-dark {
+  background-color: #141414;
+}
+.custom-bg-dark-gradient {
+  background: linear-gradient(to bottom, #000000, #121212);
+}
 .my-btn {
   border: 2px solid rgba(255, 255, 255, 0.397);
   background-color: rgb(0, 0, 0);
@@ -37,4 +43,33 @@ footer {
   padding: 0.4em 0.8em;
   margin-block: 1em;
   font-size: 0.7em;
+}
+
+/* profile */
+.container-profile {
+  max-width: 600px;
+  margin-inline: auto;
+  margin-top: 2em;
+}
+
+.abs {
+  top: 115px;
+  left: 25px;
+}
+.abs:hover {
+  cursor: pointer;
+}
+.pen {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.btn-profile {
+  border: 1px solid rgba(255, 255, 255, 0.397);
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, 0.397);
+  padding: 0.3em 1.2em;
+  margin-block: 1em;
+  letter-spacing: 2px;
+  font-size: 0.9em;
 }
