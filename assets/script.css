@@ -85,3 +85,8 @@ footer {
   max-width: 600px;
   margin-inline: auto;
 }
+.h1-settings {
+}
+.main-settings h5 {
+  color: rgba(2, 2, 2, 0.466);
+}
