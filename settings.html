@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Project-work epicode with bootstrap" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/script.css" />
+    <title>Netflix Clone</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark custom-bg-dark mb-2">
+      <div class="container-md">
+        <ul class="navbar-nav me-md-auto mb-lg-0">
+          <li>
+            <a class="navbar-brand" href="#">
+              <img
+                src="./assets/netflix_logo.png"
+                alt="logo Netflix"
+                height="40"
+              />
+            </a>
+          </li>
+          <li class="nav-item d-none d-md-block">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item d-none d-md-block">
+            <a class="nav-link active" href="#">TV Show</a>
+          </li>
+          <li class="nav-item d-none d-md-block">
+            <a class="nav-link active" href="#">Movie</a>
+          </li>
+          <li class="nav-item d-none d-md-block">
+            <a class="nav-link active" href="#">Recently Added</a>
+          </li>
+          <li class="nav-item d-none d-md-block">
+            <a class="nav-link active" href="#">My List</a>
+          </li>
+        </ul>
+
+        <div>
+          <ul class="navbar-nav mb-lg-0 fle flex-row">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                ><i class="bi bi-search p-2"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">KIDS</a>
+            </li>
+            <li>
+              <a class="dropdown-item text-white p-2" href="#"
+                ><i class="bi bi-bell-fill"></i
+              ></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img width="30px" ; src="./assets/avatar.png" alt="avatar" />
+              </a>
+              <ul class="dropdown-menu custom-bg-dark">
+                <li>
+                  <a class="dropdown-item text-white" href="#"
+                    ><img
+                      width="30px"
+                      ;
+                      src="./assets/avatar.png"
+                      alt="avatar"
+                    />Marta</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-white" href="#"
+                    ><img
+                      width="30px"
+                      ;
+                      src="./assets/avatar.png"
+                      alt="avatar"
+                    />Riccardo</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item text-white" href="#"
+                    ><img
+                      width="30px"
+                      ;
+                      src="./assets/avatar.png"
+                      alt="avatar"
+                    />Cesco</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="main-settings">
+      <h1>Account</h1>
+      <hr />
+      <div class="row justify-content-between">
+        <div class="col-3">
+          <h5>MEMBERSHIP & BILLING</h5>
+          <button>Cancel Membership</button>
+        </div>
+        <div class="col-9">
+          <div class="row justify-content-between">
+            <div class="col-auto">
+              <p>Student@Strive.school</p>
+              <p>Password:**********</p>
+              <p>Phone:623543354</p>
+            </div>
+            <div class="col-auto">
+              <p class="text-primary">Change account email</p>
+              <p class="text-primary">Change password</p>
+              <p class="text-primary">Change phone number</p>
+            </div>
+          </div>
+          <hr />
+          <div class="row justify-content-between">
+            <div class="col-auto">
+              <i class="bi bi-paypal"></i>
+              <p class="d-inline-block">
+                <span>PAY PAL</span> admin@strive.school
+              </p>
+            </div>
+            <div class="col-auto">
+              <p class="text-primary">Updete payment info</p>
+              <p class="text-primary">Billing dateils</p>
+            </div>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col-auto ms-auto">
+              <p class="text-primary">Redeem gift or promo code</p>
+              <p class="text-primary">Where to buy gift cards</p>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-3">PLAN DATAILS</div>
+          <div class="col-9">
+            <div class="row justify-content-between">
+              <div class="col-auto">
+                <h5>Premium</h5>
+              </div>
+              <div class="col-auto">
+                <p class="text-primary">Change plan</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-3">
+            <h5>SETTINGS</h5>
+          </div>
+          <div class="col-9">
+            <p class="text-primary">Parental controls</p>
+            <p class="text-primary">Test participation</p>
+            <p class="text-primary">Manage download device</p>
+            <p class="text-primary">Active a devica</p>
+            <p class="text-primary">Recent device streaming activity</p>
+            <p class="text-primary">Sing ut of all device</p>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-3"><h5>MY PROFILE</h5></div>
+          <div class="col-9">
+            <div class="row justify-content-between">
+              <div class="col-auto">
+                <img src="" alt="" />
+                <p class="d-inline-block">Strive Sudent</p>
+              </div>
+              <div class="col-auto">
+                <p class="text-primary">Menage profiles</p>
+                <p class="text-primary">Add profile email</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3"></div>
+          <div class="col-9">
+            <div class="row">
+              <div class="col-6">
+                <p class="text-primary">Language</p>
+                <p class="text-primary">Payback</p>
+                <p class="text-primary">Subtitle appearece</p>
+              </div>
+              <div class="col-6">
+                <p class="text-primary">Viewing activity</p>
+                <p class="text-primary">Ratings</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
