@@ -7,3 +7,34 @@
 .hide-arrow::after {
   display: none;
 }
+footer {
+  max-width: 600px;
+  margin-inline: auto;
+  margin-top: 8em;
+}
+@media screen and (min-width: 575px) {
+  footer {
+    margin-left: 1em;
+  }
+}
+.social::before,
+.social {
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.social2::before {
+  color: rgba(255, 255, 255, 0.254);
+}
+
+.social p {
+  font-size: 0.7em;
+}
+
+.btn-footer {
+  border: 2px solid rgba(255, 255, 255, 0.397);
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, 0.397);
+  padding: 0.4em 0.8em;
+  margin-block: 1em;
+  font-size: 0.7em;
+}
