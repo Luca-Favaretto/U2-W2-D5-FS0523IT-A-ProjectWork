@@ -82,11 +82,37 @@ footer {
 }
 /* settings */
 .main-settings {
+  font-size: 10px;
   max-width: 600px;
   margin-inline: auto;
 }
 .h1-settings {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+.trasparent {
+  color: rgba(2, 2, 2, 0.466);
 }
 .main-settings h5 {
-  color: rgba(2, 2, 2, 0.466);
+  color: rgba(2, 2, 2, 0.354);
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.btn-settings {
+  border: none;
+  background-color: #e0e0e0;
+  font-size: 1em;
+  padding: 0.5em 2.5em;
+  font-weight: 700;
+}
+.main-settings hr {
+  margin: 0 0 0.8em;
+}
+.custom-text-primary {
+  color: #38bafc;
+  font-weight: 600;
+}
+.main-settings p {
+  margin-bottom: 1em;
 }

@@ -114,100 +114,111 @@
       <h1 class="h1-settings mt-4">Account</h1>
       <hr />
       <div class="row justify-content-between">
-        <div class="col-3">
+        <div class="col-4">
           <h5>MEMBERSHIP & BILLING</h5>
-          <button>Cancel Membership</button>
+          <button class="btn-settings">Cancel Membership</button>
         </div>
-        <div class="col-9">
+        <div class="col-8">
           <div class="row justify-content-between">
             <div class="col-auto">
-              <p>Student@Strive.school</p>
-              <p>Password:**********</p>
-              <p>Phone:623543354</p>
+              <p class="fw-bolder">Student@Strive.school</p>
+              <p class="trasparent">Password:**********</p>
+              <p class="trasparent">Phone:623543354</p>
             </div>
             <div class="col-auto">
-              <p class="text-primary">Change account email</p>
-              <p class="text-primary">Change password</p>
-              <p class="text-primary">Change phone number</p>
+              <p class="custom-text-primary">Change account email</p>
+              <p class="custom-text-primary">Change password</p>
+              <p class="custom-text-primary">Change phone number</p>
             </div>
           </div>
           <hr />
           <div class="row justify-content-between">
             <div class="col-auto">
               <i class="bi bi-paypal"></i>
-              <p class="d-inline-block">
-                <span>PAY PAL</span> admin@strive.school
+              <p class="d-inline-block fw-bolder">
+                <span
+                  ><img
+                    src="data:image/png;base64,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"
+                    alt=""
+                    width="40px"
+                /></span>
+                admin@strive.school
               </p>
             </div>
             <div class="col-auto">
-              <p class="text-primary">Updete payment info</p>
-              <p class="text-primary">Billing dateils</p>
+              <p class="custom-text-primary">Updete payment info</p>
+              <p class="custom-text-primary">Billing dateils</p>
             </div>
           </div>
           <hr />
           <div class="row">
             <div class="col-auto ms-auto">
-              <p class="text-primary">Redeem gift or promo code</p>
-              <p class="text-primary">Where to buy gift cards</p>
+              <p class="custom-text-primary">Redeem gift or promo code</p>
+              <p class="custom-text-primary">Where to buy gift cards</p>
             </div>
           </div>
         </div>
         <hr />
         <div class="row">
-          <div class="col-3"><h5>PLAN DATAILS</h5></div>
-          <div class="col-9">
+          <div class="col-4"><h5>PLAN DATAILS</h5></div>
+          <div class="col-8">
             <div class="row justify-content-between">
               <div class="col-auto">
-                <h5>Premium</h5>
+                <p class="d-inline-block fw-bolder">Premium</p>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuXYqlKQ4Wf_VWSc18odaX7WbZsm8KI1EnSA&usqp=CAU"
+                  alt=""
+                  width="30px"
+                />
               </div>
               <div class="col-auto">
-                <p class="text-primary">Change plan</p>
+                <p class="custom-text-primary">Change plan</p>
               </div>
             </div>
           </div>
         </div>
         <hr />
         <div class="row">
-          <div class="col-3">
+          <div class="col-4">
             <h5>SETTINGS</h5>
           </div>
-          <div class="col-9">
-            <p class="text-primary">Parental controls</p>
-            <p class="text-primary">Test participation</p>
-            <p class="text-primary">Manage download device</p>
-            <p class="text-primary">Active a devica</p>
-            <p class="text-primary">Recent device streaming activity</p>
-            <p class="text-primary">Sing ut of all device</p>
+          <div class="col-8">
+            <p class="custom-text-primary">Parental controls</p>
+            <p class="custom-text-primary">Test participation</p>
+            <p class="custom-text-primary">Manage download device</p>
+            <p class="custom-text-primary">Active a devica</p>
+            <p class="custom-text-primary">Recent device streaming activity</p>
+            <p class="custom-text-primary">Sing ut of all device</p>
           </div>
         </div>
         <hr />
         <div class="row">
-          <div class="col-3"><h5>MY PROFILE</h5></div>
-          <div class="col-9">
+          <div class="col-4"><h5>MY PROFILE</h5></div>
+          <div class="col-8">
             <div class="row justify-content-between">
               <div class="col-auto">
                 <img src="" alt="" />
                 <p class="d-inline-block">Strive Sudent</p>
               </div>
               <div class="col-auto">
-                <p class="text-primary">Menage profiles</p>
-                <p class="text-primary">Add profile email</p>
+                <p class="custom-text-primary">Menage profiles</p>
+                <p class="custom-text-primary">Add profile email</p>
               </div>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-3"></div>
-          <div class="col-9">
+          <div class="col-4"></div>
+          <div class="col-8">
             <div class="row">
               <div class="col-6">
-                <p class="text-primary">Language</p>
-                <p class="text-primary">Payback</p>
-                <p class="text-primary">Subtitle appearece</p>
+                <p class="custom-text-primary">Language</p>
+                <p class="custom-text-primary">Payback</p>
+                <p class="custom-text-primary">Subtitle appearece</p>
               </div>
               <div class="col-6">
-                <p class="text-primary">Viewing activity</p>
-                <p class="text-primary">Ratings</p>
+                <p class="custom-text-primary">Viewing activity</p>
+                <p class="custom-text-primary">Ratings</p>
               </div>
             </div>
           </div>
