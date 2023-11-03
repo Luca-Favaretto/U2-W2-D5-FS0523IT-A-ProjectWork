@@ -46,6 +46,9 @@ footer {
 }
 
 /* profile */
+.main-profile {
+  color: rgba(255, 255, 255, 0.669);
+}
 .h1-profile {
   font-size: 6em;
   font-weight: 400;
