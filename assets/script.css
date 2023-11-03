@@ -46,35 +46,39 @@ footer {
 }
 
 /* profile */
+.h1-profile {
+  font-size: 6em;
+  font-weight: 400;
+}
 .container-profile {
-  max-width: 600px;
+  max-width: 500px;
   margin-inline: auto;
   margin-top: 2em;
 }
 
 .abs {
-  top: 115px;
+  top: 95px;
   left: 25px;
 }
 .abs:hover {
   cursor: pointer;
 }
 .pen {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   overflow: hidden;
 }
 .btn-profile {
   border: 1px solid rgba(255, 255, 255, 0.397);
   background-color: rgba(0, 0, 0, 0);
   color: rgba(255, 255, 255, 0.397);
-  padding: 0.3em 1.2em;
+  padding: 0.4em 1.8em;
   margin-block: 1em;
   letter-spacing: 2px;
   font-size: 0.9em;
 }
 /* settings */
 .main-settings {
-  max-width: 800px;
+  max-width: 600px;
   margin-inline: auto;
 }
